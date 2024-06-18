@@ -3,24 +3,47 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    int i;
-    int sum;
-    int n;
+//     int i;
+//     int sum;
+//     int n;
 
-    cin>>n;
+//     cin>>n;
 
-    i = 1;
-    sum = 0;
+//     i = 1;
+//     sum = 0;
 
-    while (i<=n)
+//     while (i<=n)
+//     {
+//         sum = sum + i;
+//         cout<<sum<<endl;
+//         i = i+1;
+//     }
+//     cout <<sum ;
+
+
+
+
+//Prime number
+int number;
+    cin>>number;
+
+    int j = 2;
+
+    while (j<number)
     {
-        sum = sum + i;
-        cout<<sum<<endl;
-        i = i+1;
+        if (number % j == 0)
+        {
+            cout<<"Not a prime number";
+        }
+
+        else
+        {
+            cout<<"This is a prime number";
+        }
+
+        j = j + 1; 
+        
     }
-    cout <<sum ;
-
-
 
     return 0;
 }
