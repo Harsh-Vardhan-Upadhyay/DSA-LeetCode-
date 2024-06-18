@@ -1,20 +1,26 @@
 #include <iostream>
 using namespace std;
 
-int main()
+int main(int argc, char const *argv[])
 {
-    int a;
+    int i;
+    int sum;
     int n;
 
-    cin>> n;
-    cin>> a;
+    cin>>n;
 
-    if(a==n){
-        cout<<"yes they are the same"
-        <<endl;
+    i = 1;
+    sum = 0;
+
+    while (i<=n)
+    {
+        sum = sum + i;
+        cout<<sum<<endl;
+        i = i+1;
     }
-    else {
-        cout<<"Not the same"<<endl;
-    }
+    cout <<sum ;
+
+
+
     return 0;
 }
