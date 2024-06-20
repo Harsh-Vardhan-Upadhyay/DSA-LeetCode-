@@ -24,26 +24,41 @@ int main(int argc, char const *argv[])
 
 
 //Prime number
-int number;
-    cin>>number;
+// int number;
+//     cin>>number;
 
-    int j = 2;
+//     int j = 2;
 
-    while (j<number)
-    {
-        if (number % j == 0)
-        {
-            cout<<"Not a prime number";
-        }
+//     while (j<number)
+//     {
+//         if (number % j == 0)
+//         {
+//             cout<<"Not a prime number";
+//         }
 
-        else
-        {
-            cout<<"This is a prime number";
-        }
+//         else
+//         {
+//             cout<<"This is a prime number";
+//         }
 
-        j = j + 1; 
+//         j = j + 1; 
         
-    }
+//     }
+
+
+
+//Patterns
+
+int n;
+int i;
+cin >> n;
+int i =1;
+
+while (i<=n)
+{
+    
+}
+
 
     return 0;
 }
